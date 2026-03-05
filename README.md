@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# aws-data-platform-portfolio
-AWS Cloud and Data Engineering Portfolio — hands-on labs covering cloud foundations, data platforms, and ML workflows.
-=======
 # AWS Portfolio — Cloud + Data (Hands-on)
 
 Este repositório reúne projetos práticos em AWS, organizados por trilhas e níveis de maturidade.
@@ -21,4 +17,3 @@ Cada pasta de lab possui:
 - Passo a passo (alto nível)
 - Evidências (prints, outputs)
 - Lições aprendidas
->>>>>>> 28c089a (chore: scaffold AWS portfolio structure + templates)
