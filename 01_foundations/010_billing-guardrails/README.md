@@ -49,7 +49,7 @@ Foram configurados três alarmes no CloudWatch para monitorar a métrica `Estima
 |------|------|
 | billing-alarm-5usd | $5 |
 | billing-alarm-25usd | $25 |
-| billing-alarm-100usd | $100 |
+| billing-alarm-50usd | $50 |
 
 Cada alarme envia uma notificação para o tópico SNS quando o limite definido é ultrapassado.
 
@@ -78,6 +78,12 @@ Limite relevante:
 - até **10 billing alarms gratuitos**
 
 Este projeto utiliza 3 alarmes
+
+# Evidências
+
+Os prints da configuração estão disponíveis na pasta:
+
+```evidence/```
 
 
 ## Limpeza do ambiente
@@ -109,5 +115,14 @@ R. EstimatedCharges
 - Integração de alertas com Slack ou Microsoft Teams
 - Implementação de AWS Budgets para controle mensal
 - Monitoramento centralizado de custos utilizando AWS Organizations
+
+## Referências
+
+[Crie um orçamemento](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-create.html#create-cost-budget)
+[Melhores práticas](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-best-practices.html)
+
+## Saída esperada 
+
+[texto alternativo](01_budget-created.png)
 
 
