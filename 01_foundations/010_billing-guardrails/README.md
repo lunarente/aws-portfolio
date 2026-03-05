@@ -118,8 +118,8 @@ R. EstimatedCharges
 
 ## Referências
 
-*[Crie um orçamemento](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-create.html#create-cost-budget)
-*[Melhores práticas](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-best-practices.html)
+* [Crie um orçamento](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-create.   html#create-cost-budget)
+* [Melhores práticas](https://docs.aws.amazon.com/cost-management/latest/userguide/budgets-best-practices.html)
 
 ## Saída esperada 
 
