@@ -315,3 +315,4 @@ Provisionamento de infraestrutura web em AWS utilizando **Amazon EC2**, incluind
 # Saída Esperada
 
 ![Hello World EC2](evidence\03_hw-ec2.png)
+    
