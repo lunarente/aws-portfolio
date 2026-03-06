@@ -314,4 +314,4 @@ Provisionamento de infraestrutura web em AWS utilizando **Amazon EC2**, incluind
 
 # Saída Esperada
 
-![Budget criado](evidence\03_hw-ec2.png)
+![Hello World EC2](evidence\03_hw-ec2.png)
