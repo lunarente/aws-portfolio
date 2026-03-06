@@ -4,7 +4,7 @@
 
 Em ambientes cloud, o controle de custos é um componente essencial da governança financeira (FinOps).  
 Sem mecanismos de monitoramento adequados, o uso de recursos pode crescer rapidamente e gerar custos inesperados.
-
+git
 O serviço **AWS Budgets** permite definir limites de gastos e configurar alertas automáticos quando determinados thresholds são atingidos.  
 Isso fornece visibilidade sobre o consumo da infraestrutura e permite ações preventivas para evitar desvios de orçamento.
 
@@ -194,9 +194,8 @@ Este projeto está incluído no **AWS Free Tier**.
 
 ---
 
-# Evidências
+# Saída esperada
 
-Os prints da configuração estão disponíveis na pasta
 ![Budget criado](evidence/02_budget-created.png)
 
 
