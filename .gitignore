@@ -1,0 +1,10 @@
+.env
+.env.*
+
+.aws/
+*.pem
+
+__pycache__/
+*.pyc
+
+.vscode/
