@@ -1,0 +1,13 @@
+# environment variables
+.env
+.env.*
+
+# AWS credentials
+.aws/
+
+# private keys
+*.pem
+
+# python cache
+__pycache__/
+*.pyc
