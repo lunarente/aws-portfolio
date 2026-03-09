@@ -60,7 +60,7 @@ Exemplo:
 
 ```
 
-851725387103.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs
+123456789012.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs
 
 ````
 
@@ -71,7 +71,7 @@ Exemplo:
 No terminal:
 
 ```bash
-aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 851725387103.dkr.ecr.us-east-1.amazonaws.com
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 123456789012.dkr.ecr.us-east-1.amazonaws.com
 ````
 
 Resultado esperado:
@@ -117,7 +117,7 @@ docker images
 Para enviar ao registry da AWS, a imagem precisa receber a tag do repositório ECR:
 
 ```bash
-docker tag data-lab-image:latest 851725387103.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs:latest
+docker tag data-lab-image:latest 123456789012.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs:latest
 ```
 
 ---
@@ -127,7 +127,7 @@ docker tag data-lab-image:latest 851725387103.dkr.ecr.us-east-1.amazonaws.com/da
 Executar o push da imagem:
 
 ```bash
-docker push 851725387103.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs:latest
+docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs:latest
 ```
 
 Resultado esperado:
@@ -167,7 +167,7 @@ ACCOUNT_ID.dkr.ecr.REGION.amazonaws.com/REPOSITORY
 Exemplo:
 
 ```
-851725387103.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs
+123456789012.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs
 ```
 
 ---
@@ -257,7 +257,7 @@ docker rmi data-lab-image
 Se necessário remover também a imagem com a tag do ECR:
 
 ```bash
-docker rmi 851725387103.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs:latest
+docker rmi 123456789012.dkr.ecr.us-east-1.amazonaws.com/data-engineering-labs:latest
 ```
 
 ---
