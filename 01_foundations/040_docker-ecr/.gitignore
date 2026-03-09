@@ -1,0 +1,16 @@
+# environment variables
+.env
+.env.*
+
+# AWS credentials
+.aws/
+
+# private keys
+*.pem
+
+# python
+__pycache__/
+*.pyc
+
+# docker
+*.log
